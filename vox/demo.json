@@ -35,6 +35,14 @@
             "ext": "./json/feimaolive.json"
         },
         {
+            "key": "csp_PanShare",
+            "name": "😊我的┃网盘",
+            "type": 3,
+            "api": "csp_PanShare",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
             "key": "csp_TgDouban",
             "name": "🥳TG┃豆瓣",
             "type": 3,
@@ -454,15 +462,29 @@
             }
         },
         {
-            "key": "动漫屋App",
-            "name": "🐸漫屋┃APP",
+            "key": "布雷4KAPP",
+            "name": "🐼布雷｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://www.yunwuee.icu",
-                "datakey": "ygcnb9bdcmb8aeiw"
+                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt",
+                "datakey": "5f2b7ed203a3a581",
+                "api": 2
+            }
+        },
+        {
+            "key": "仓鼠4K",
+            "name": "🤑仓鼠｜App",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://hk421appcms.cs4k.top",
+                "datakey": "da61247f5b662597",
+                "api": "2"
             }
         },
         {
@@ -708,6 +730,21 @@
             "playerType": 2,
             "ext": {
                 "json": "./json/bilirt.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_bilims",
+            "name": "🅱️最爱┃美食",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/bilims.json",
                 "cookie": ""
             },
             "style": {
